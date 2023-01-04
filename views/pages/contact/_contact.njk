@@ -1,0 +1,40 @@
+<div class="contact">
+    <h1 class="contact__header">Contact Form</h1>
+    <form action="/send" class="contact__form">
+        <div class="contact__form__aside">
+            <label for="fname" class="contact__form__label">First Name</label>
+            <input type="text" class="contact__form__input" name="fname">
+        </div>
+        <div class="contact__form__aside">
+            <label for="lname" class="contact__form__label">Last Name</label>
+            <input type="text" class="contact__form__input" name="lname">
+        </div>
+        <div class="contact__form__aside">
+            <label for="email" class="contact__form__label">E-mail</label>
+            <input type="text" class="contact__form__input" name="email">
+        </div>
+        <div class="contact__form__aside">
+            <label for="phone" class="contact__form__label">Phone Number</label>
+            <input type="text" class="contact__form__input" name="phone">
+        </div>
+        <div class="contact__form__aside">
+            <label for="subject" class="contact__form__label">Subject</label>
+            <select name="subject" class="contact__form__selectbox">
+                <option value="Questions">Questions</option>
+                <option value="proposal">Proposal</option>
+                <option value="complaint">Complaint</option>
+            </select>
+        </div>
+        <div class="contact__form__aside">
+            <label for="message" class="contact__form__label">Message</label>
+            <textarea type="text" class="contact__form__input -message" name="message"></textarea>
+        </div>
+        <div class="contact__form__aside -checkboxArea">
+            <input type="checkbox" class="contact__form__checkbox" name="disclosure" value="accept" required>
+            <label for="disclosure" class="contact__form__label -checkboxText">Disclosure Text</label>
+        </div>
+        <div class="contact__form__aside -checkboxArea">
+            <input type="submit" class="contact__form__button" value="Submit">
+        </div>
+    </form>
+</div>

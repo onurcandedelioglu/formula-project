@@ -1,0 +1,54 @@
+<div class="grandprix">
+    <h1 class="grandprix__header">Grand Prix</h1>
+    <div class="grandprix__wrapper">
+        <div class="grandprix__aside">
+            <div class="grandprix__aside__tab">
+                {% for circuitCountry in circuits %}
+                    <button class="grandprix__aside__tab__button {{'-activeButton' if loop.index == 1}}" country="{{circuitCountry.country}}" data-tab>{{circuitCountry.country}}</button>
+                {% endfor %}
+            </div>
+            <select class="grandprix__aside__selectbox" data-selectbox>
+                {% for circuitCountry in circuits %}
+                    <option class="grandprix__aside__selectbox__option" value="{{circuitCountry.country}}" data-selectbox>{{circuitCountry.country}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="grandprix__aside">
+            {% for grandPrixCircuit in circuits %}
+                <div class="grandprix__aside__content {{'-activeContent' if loop.index == 1}}" country-content="{{grandPrixCircuit.country}}">
+                    <h2 class="grandprix__aside__content__country">{{grandPrixCircuit.country}}</h2>
+                    {% for circuit in grandPrixCircuit.circuit %}
+                        <h3 class="grandprix__aside__content__name">{{circuit.name}}</h3>
+                        <img class="grandprix__aside__content__image" src="{{circuit.circuitImage}}">
+                        <div class="grandprix__aside__content__wrapper">
+                            <div class="grandprix__aside__content__item">
+                                <p class="grandprix__aside__content__text">First Grand Prix</p>
+                                <p class="grandprix__aside__content__answer">{{circuit.firstGrandPrix}}</p>
+                            </div>
+                            <div class="grandprix__aside__content__item">
+                                <p class="grandprix__aside__content__text">Number of Laps</p>
+                                <p class="grandprix__aside__content__answer">{{circuit.numberOfLaps}}</p>
+                            </div>
+                            <div class="grandprix__aside__content__item">
+                                <p class="grandprix__aside__content__text">Circuit Length</p>
+                                <p class="grandprix__aside__content__answer">{{circuit.circuitLength}} km</p>
+                            </div>
+                            <div class="grandprix__aside__content__item">
+                                <p class="grandprix__aside__content__text">Race Distance</p>
+                                <p class="grandprix__aside__content__answer">{{circuit.raceDistance}} km</p>
+                            </div>
+                            <div class="grandprix__aside__content__item">
+                                <p class="grandprix__aside__content__text">Lap Record</p>
+                                <p class="grandprix__aside__content__answer">{{circuit.lapRecord}}</p>
+                            </div>
+                            <div class="grandprix__aside__content__item">
+                                <p class="grandprix__aside__content__text">Record Holder</p>
+                                <p class="grandprix__aside__content__answer">{{circuit.redordPilot}}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

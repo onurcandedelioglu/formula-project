@@ -1,0 +1,74 @@
+.pilot {
+  margin: 50px 0px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 700px) {
+  .pilot {
+    max-width: 370px;
+  }
+}
+.pilot__header {
+  margin: 0px;
+  font-size: 42px;
+  color: white;
+}
+.pilot__aside {
+  margin: 50px 0px 0px 0px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 700px) {
+  .pilot__aside {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 370px;
+  }
+}
+.pilot__aside__detail {
+  width: 100%;
+  max-width: 600px;
+}
+@media only screen and (max-width: 700px) {
+  .pilot__aside__detail {
+    max-width: 370px;
+  }
+}
+.pilot__aside__detail__image {
+  width: 100%;
+  height: auto;
+}
+.pilot__aside__detail__text {
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 50px;
+  color: white;
+  font-size: 32px;
+}
+.pilot__aside__detail__text strong {
+  color: red;
+}
+.pilot__aside__detail h2 {
+  font-size: 36px;
+}
+
+#totalPodiumsPie {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+@media only screen and (max-width: 700px) {
+  #totalPodiumsPie {
+    max-width: 370px;
+  }
+}
+
+/*# sourceMappingURL=pilot-detail.css.map */

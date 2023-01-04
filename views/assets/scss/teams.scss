@@ -1,0 +1,137 @@
+@import "variable.scss";
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    margin: 0px 0 50px 0;
+
+    @media only screen and (max-width: $desktop){
+        flex-direction: column;
+    }
+
+    &__header {
+        font-size: 32px;
+        color: #ffffff;
+        margin: 50px 0px 0px 0px;
+        text-transform: uppercase;
+    }
+
+    &__aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 50px;
+        padding: 20px;
+
+        width: 45%;
+
+        border-radius: 10px;
+
+        @media only screen and (max-width: $desktop){
+            width: 85%;
+            max-width: 750px;
+        }
+
+        @media only screen and (max-width: $mobile){
+            padding: 10px;
+        }
+
+
+        &__information {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 100%;
+        }
+
+        &__name {
+            color: #ffffff;
+            font-size: 20px;
+        }
+        &__logo {
+            width: 100px;
+            height: 70px;
+        }
+        &__car {
+            width: 100%;
+            height: auto;
+
+            &__image {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        &__driver {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+            width: 100%;
+
+            &__name {
+                color: #ffffff;
+                font-size: 18px;
+                text-decoration: none;
+                &:hover {
+                    color: #e00400;
+                }
+                
+                @media only screen and (max-width: $mobile){
+                    padding-left: 10px;
+                }
+            }
+
+            &__image {
+                width: 90px;
+                height: 100px;
+
+                @media only screen and (max-width: $mobile){
+                    width: 70px;
+                    height: 80px;
+                }
+            }
+        }
+    }
+}
+
+.Red-Bull-Racing {
+    border: 2px solid $Red-Bull-Racing;
+} 
+.Scuderia-Ferrari {
+    border: 2px solid $Scuderia-Ferrari;
+} 
+.Mercedes-AMG-Petronas-F1-Team {
+    border: 2px solid $Mercedes-AMG-Petronas-F1-Team;
+} 
+.McLaren-F1-Team {
+    border: 2px solid $McLaren-F1-Team;
+} 
+.Haas-F1-Team {
+    border: 2px solid $Haas-F1-Team;
+} 
+.Williams-Racing {
+    border: 2px solid $Williams-Racing;
+} 
+.Scuderia-AlphaTauri {
+    border: 2px solid $Scuderia-AlphaTauri;
+} 
+.Alfa-Romeo-F1-Team-ORLEN {
+    border: 2px solid $Alfa-Romeo-F1-Team-ORLEN;
+} 
+.Aston-Martin-Aramco-Cognizant-F1-Team {
+    border: 2px solid $Aston-Martin-Aramco-Cognizant-F1-Team;
+} 
+.BWT-Alpine-F1-Team {
+    border: 2px solid $BWT-Alpine-F1-Team;
+} 

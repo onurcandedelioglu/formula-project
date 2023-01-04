@@ -1,0 +1,136 @@
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px 0 50px 0;
+}
+@media only screen and (max-width: 1240px) {
+  .team {
+    flex-direction: column;
+  }
+}
+.team__header {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 50px 0px 0px 0px;
+  text-transform: uppercase;
+}
+.team__aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+  width: 45%;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 1240px) {
+  .team__aside {
+    width: 85%;
+    max-width: 750px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .team__aside {
+    padding: 10px;
+  }
+}
+.team__aside__information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.team__aside__name {
+  color: #ffffff;
+  font-size: 20px;
+}
+.team__aside__logo {
+  width: 100px;
+  height: 70px;
+}
+.team__aside__car {
+  width: 100%;
+  height: auto;
+}
+.team__aside__car__image {
+  width: 100%;
+  height: auto;
+}
+.team__aside__driver {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.team__aside__driver__name {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+.team__aside__driver__name:hover {
+  color: #e00400;
+}
+@media only screen and (max-width: 700px) {
+  .team__aside__driver__name {
+    padding-left: 10px;
+  }
+}
+.team__aside__driver__image {
+  width: 90px;
+  height: 100px;
+}
+@media only screen and (max-width: 700px) {
+  .team__aside__driver__image {
+    width: 70px;
+    height: 80px;
+  }
+}
+
+.Red-Bull-Racing {
+  border: 2px solid #3671C6;
+}
+
+.Scuderia-Ferrari {
+  border: 2px solid #F91536;
+}
+
+.Mercedes-AMG-Petronas-F1-Team {
+  border: 2px solid #6CD3BF;
+}
+
+.McLaren-F1-Team {
+  border: 2px solid #F58020;
+}
+
+.Haas-F1-Team {
+  border: 2px solid #B6BABD;
+}
+
+.Williams-Racing {
+  border: 2px solid #37BEDD;
+}
+
+.Scuderia-AlphaTauri {
+  border: 2px solid #5E8FAA;
+}
+
+.Alfa-Romeo-F1-Team-ORLEN {
+  border: 2px solid #c92d4b;
+}
+
+.Aston-Martin-Aramco-Cognizant-F1-Team {
+  border: 2px solid #358C75;
+}
+
+.BWT-Alpine-F1-Team {
+  border: 2px solid #2293D1;
+}
+
+/*# sourceMappingURL=teams.css.map */

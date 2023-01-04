@@ -1,0 +1,175 @@
+@import "variable.scss";
+
+.home {
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 70px 0 70px 0;
+
+    @media only screen and (max-width: $desktop){
+        max-width: 670px;
+    }
+
+    @media only screen and (max-width: $mobile){
+        max-width: 370px;
+    }
+    
+    &__aside {
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        &__banner {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            padding: 0 0 70px 0;
+
+            @media only screen and (max-width: $desktop){
+                flex-direction: column;
+            }
+
+            &__item {
+                width: 48%;
+
+                @media only screen and (max-width: $desktop){
+                    width: 100%;
+                }
+
+                &__title {
+                    font-size: 30px;
+                    color: #ffffff;
+                }
+                &__text {
+                    font-size: 16px;
+                    color: #ffffff;
+                    max-width: 600px;
+                }
+
+                &__image {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+.highlights {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    &__header {
+        font-size: 24px;
+        color: #ffffff;
+    }
+
+    &__aside {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        &__item {
+            width: calc(100% / 4.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            @media only screen and (max-width: $desktop){
+                width: 150px;
+            }
+
+            @media only screen and (max-width: $mobile){
+                width: 170px;
+            }
+
+            &__video {
+                width: 100%;
+                height: auto;
+            }
+
+            &__title {
+                color: #ffffff;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.cards {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+
+    @media only screen and (max-width: $mobile){
+        max-width: 370px;
+        flex-wrap: wrap;
+    }
+
+    &__aside {
+        width: calc(100% / 4);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #e00400;
+        padding: 30px 20px;
+        height: 300px;
+        max-height: 300px;
+
+        @media only screen and (max-width: $mobile){
+            width: 120px;
+            &:last-child {
+                margin-top: 30px;
+            }
+        }
+        
+        &__title {
+            color: white;
+            margin: 0px;
+        }
+
+        &__content {
+            color: white;
+        }
+
+        &__link {
+            width: 150px;
+            height: 50px;
+            background-color: #e00400;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &:hover {
+                background-color: #7c0402;
+            }
+        }
+    }
+}

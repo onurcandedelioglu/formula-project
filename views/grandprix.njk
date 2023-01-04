@@ -1,0 +1,13 @@
+{% extends "./templates/base-template.njk" %}
+
+{% block css %}
+    <link rel="stylesheet" href="./assets/css/grandprix.css">
+{% endblock %} 
+
+{% block script %}
+    <script src="./pages/grandprix/active-content.js" defer></script>
+{% endblock %} 
+
+{% block main %}
+    {% include "./pages/grandprix/_grandprix.njk" %}
+{% endblock %}

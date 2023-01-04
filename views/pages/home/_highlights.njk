@@ -1,0 +1,13 @@
+<div class="highlights">
+    <h2 class="highlights__header">Formula 1 Highlights</h2>
+    <div class="highlights__aside">
+        {% for highlight in highlights %}
+            <div class="highlights__aside__item">
+                <iframe class="highlights__aside__item__video"
+                    src="{{highlight.url}}">
+                </iframe>
+                <h2 class="highlights__aside__item__title">{{highlight.title}}</h2>
+            </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,18 @@
+{% extends "./templates/base-template.njk" %}
+
+{% block css %}
+    <link rel="stylesheet" href="./assets/css/pilot-detail.css">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+{% endblock %} 
+
+{% block script %}
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-env>
+        - matplotlib
+        - numpy
+    </py-env>
+{% endblock %} 
+
+{% block main %}
+    {% include "./pages/pilot-detail/_pilot-detail.njk" %}
+{% endblock %}

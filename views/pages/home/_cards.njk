@@ -1,0 +1,27 @@
+{% set cardsContent = [
+    {  
+        header: 'Grand Prix',
+        content: 'You can get information about grandprix',
+        link: '/grandprix'
+    },
+    {  
+        header: 'Teams',
+        content: 'Discover everything you need to know about this years Formula 1 teams - drivers, podium finishes, points earned and championship titles.',
+        link: '/teams'
+    },
+    {  
+        header: 'Contact',
+        content: 'You can contact us by filling out the form.',
+        link: '/contact'
+    }
+] %} 
+
+<div class="cards">
+    {% for card in cardsContent %}
+        <div class="cards__aside">
+            <h3 class="cards__aside__title">{{card.header}}</h3>
+            <p class="cards__aside__content">{{card.content}}</p>
+            <a class="cards__aside__link" href="{{card.link}}">Detail</a>
+        </div>
+    {% endfor %}
+</div>

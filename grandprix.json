@@ -1,0 +1,309 @@
+{
+    "circuits": [
+            {
+                "country": "Abu Dhabi",
+                "circuit": [
+                    {
+                        "name": "Yas Marina Circuit",
+                        "circuitImage": "./assets/images/grandprix/abu-dhabi.png",
+                        "firstGrandPrix": 2009,
+                        "numberOfLaps": 58,
+                        "circuitLength": 5.281,
+                        "raceDistance": 306.183,
+                        "lapRecord": "1:26.103",
+                        "redordPilot": "Max Verstappen (2021)"
+                    }
+                ]
+            },
+            {
+                "country": "Australia",
+                "circuit": [
+                    {
+                        "name": "Albert Park Circuit",
+                        "circuitImage": "./assets/images/grandprix/australia.png",
+                        "firstGrandPrix": 1996,
+                        "numberOfLaps": 58,
+                        "circuitLength": 5.278,
+                        "raceDistance": 306.124,
+                        "lapRecord": "1:20.260",
+                        "redordPilot": "Charles Leclarc (2022)"
+                    }
+                ]
+            },
+            {
+                "country": "Austria",
+                "circuit": [
+                    {
+                        "name": "Red Bull Ring",
+                        "circuitImage": "./assets/images/grandprix/austria.png",
+                        "firstGrandPrix": 1970,
+                        "numberOfLaps": 71,
+                        "circuitLength": 4.318,
+                        "raceDistance": 306.452,
+                        "lapRecord": "1:05.619",
+                        "redordPilot": "Carlos Sainz (2020)"
+                    }
+                ]
+            },
+            {
+                "country": "Azerbaijan",
+                "circuit": [
+                    {
+                        "name": "Baku City Circuit",
+                        "circuitImage": "./assets/images/grandprix/azerbaijan.png",
+                        "firstGrandPrix": 2016,
+                        "numberOfLaps": 51,
+                        "circuitLength": 6.003,
+                        "raceDistance": 306.049,
+                        "lapRecord": "1:43.009",
+                        "redordPilot": "Charles Leclarc (2019)"
+                    }
+                ]
+            },
+            {
+                "country": "Bahrain",
+                "circuit": [
+                    {
+                        "name": "Bahrain International Circuit",
+                        "circuitImage": "./assets/images/grandprix/bahrain.png",
+                        "firstGrandPrix": 2004,
+                        "numberOfLaps": 57,
+                        "circuitLength": 5.412,
+                        "raceDistance": 308.238,
+                        "lapRecord": "1:31.447",
+                        "redordPilot": "Pedro de la Rosa (2005)"
+                    }
+                ]
+            },
+            {
+                "country": "Belgium",
+                "circuit": [
+                    {
+                        "name": "Circuit de Spa-Francorchamps",
+                        "circuitImage": "./assets/images/grandprix/belgium.png",
+                        "firstGrandPrix": 1950,
+                        "numberOfLaps": 44,
+                        "circuitLength": 7.004,
+                        "raceDistance": 308.052,
+                        "lapRecord": "1:46.286",
+                        "redordPilot": "Valtteri Bottas (2018)"
+                    }
+                ]
+            },
+            {
+                "country": "Brazil",
+                "circuit": [
+                    {
+                        "name": "Autodrome Jose Carlos Pace",
+                        "circuitImage": "./assets/images/grandprix/brazil.png",
+                        "firstGrandPrix": 1973,
+                        "numberOfLaps": 71,
+                        "circuitLength": 4.309,
+                        "raceDistance": 305.879,
+                        "lapRecord": "1:10.540",
+                        "redordPilot": "Valtteri Bottas (2018)"
+                    }
+                ]
+            },
+            {
+                "country": "Canada",
+                "circuit": [
+                    {
+                        "name": "Autodrome Jose Carlos Pace",
+                        "circuitImage": "./assets/images/grandprix/canada.png",
+                        "firstGrandPrix": 1978,
+                        "numberOfLaps": 70,
+                        "circuitLength": 4.361,
+                        "raceDistance": 305.27,
+                        "lapRecord": "1:13.078",
+                        "redordPilot": "Valtteri Bottas (2019)"
+                    }
+                ]
+            },
+            {
+                "country": "Great Britain",
+                "circuit": [
+                    {
+                        "name": "Silverstone Circuit",
+                        "circuitImage": "./assets/images/grandprix/great-britain.png",
+                        "firstGrandPrix": 1950,
+                        "numberOfLaps": 52,
+                        "circuitLength": 5.891,
+                        "raceDistance": 306.198,
+                        "lapRecord": "1:27.097",
+                        "redordPilot": "Max Verstappen (2020)"
+                    }
+                ]
+            },
+            {
+                "country": "Hungary",
+                "circuit": [
+                    {
+                        "name": "Silverstone Circuit",
+                        "circuitImage": "./assets/images/grandprix/hungary.png",
+                        "firstGrandPrix": 1986,
+                        "numberOfLaps": 70,
+                        "circuitLength": 4.381,
+                        "raceDistance": 306.63,
+                        "lapRecord": "1:16.627",
+                        "redordPilot": "Lewis Hamilton (2020)"
+                    }
+                ]
+            },
+            {
+                "country": "Italy",
+                "circuit": [
+                    {
+                        "name": "Autodromo Enzo e Dino Ferrari",
+                        "circuitImage": "./assets/images/grandprix/italy-enzo.png",
+                        "firstGrandPrix": 1980,
+                        "numberOfLaps": 63,
+                        "circuitLength": 4.909,
+                        "raceDistance": 309.049,
+                        "lapRecord": "1:15.484",
+                        "redordPilot": "Lewis Hamilton (2020)"
+                    },
+                    {
+                        "name": "Autodromo Nazionale Monza",
+                        "circuitImage": "./assets/images/grandprix/italy-monza.png",
+                        "firstGrandPrix": 1950,
+                        "numberOfLaps": 53,
+                        "circuitLength": 5.793,
+                        "raceDistance": 306.72,
+                        "lapRecord": "1:21.046",
+                        "redordPilot": "Rubens Barrichello (2004)"
+                    }
+                ]
+            },
+            {
+                "country": "Japan",
+                "circuit": [
+                    {
+                        "name": "Suzuka International Racing Course",
+                        "circuitImage": "./assets/images/grandprix/japan.png",
+                        "firstGrandPrix": 1987,
+                        "numberOfLaps": 53,
+                        "circuitLength": 5.807,
+                        "raceDistance": 307.471,
+                        "lapRecord": "1:30.983",
+                        "redordPilot": "Lewis Hamilton (2019)"
+                    }
+                ]
+            },
+            {
+                "country": "Mexico",
+                "circuit": [
+                    {
+                        "name": "Autodromo Hermanos Rodriguez",
+                        "circuitImage": "./assets/images/grandprix/mexico.png",
+                        "firstGrandPrix": 1963,
+                        "numberOfLaps": 71,
+                        "circuitLength": 4.304,
+                        "raceDistance": 305.354,
+                        "lapRecord": "1:17.774",
+                        "redordPilot": "Valtteri Bottas (2021)"
+                    }
+                ]
+            },
+            {
+                "country": "Monaco",
+                "circuit": [
+                    {
+                        "name": "Circuit de Monaco",
+                        "circuitImage": "./assets/images/grandprix/monaco.png",
+                        "firstGrandPrix": 1950,
+                        "numberOfLaps": 78,
+                        "circuitLength": 3.337,
+                        "raceDistance": 260.286,
+                        "lapRecord": "1:12.909",
+                        "redordPilot": "Lewis Hamilton (2021)"
+                    }
+                ]
+            },
+            {
+                "country": "Netherlands",
+                "circuit": [
+                    {
+                        "name": "Circuit Zandvoort",
+                        "circuitImage": "./assets/images/grandprix/netherlands.png",
+                        "firstGrandPrix": 1952,
+                        "numberOfLaps": 72,
+                        "circuitLength": 4.259,
+                        "raceDistance": 306.587,
+                        "lapRecord": "1:11.097",
+                        "redordPilot": "Lewis Hamilton (2021)"
+                    }
+                ]
+            },
+            {
+                "country": "Saudi Arabia",
+                "circuit": [
+                    {
+                        "name": "Ceddah Corniche Circuit",
+                        "circuitImage": "./assets/images/grandprix/saudi-arabia.png",
+                        "firstGrandPrix": 2021,
+                        "numberOfLaps": 50,
+                        "circuitLength": 6.174,
+                        "raceDistance": 308.45,
+                        "lapRecord": "1:30.734",
+                        "redordPilot": "Lewis Hamilton (2021)"
+                    }
+                ]
+            },
+            {
+                "country": "Singapore",
+                "circuit": [
+                    {
+                        "name": "Marina Bay Street Circuit",
+                        "circuitImage": "./assets/images/grandprix/singapore.png",
+                        "firstGrandPrix": 2008,
+                        "numberOfLaps": 61,
+                        "circuitLength": 5.063,
+                        "raceDistance": 308.706,
+                        "lapRecord": "1:41.905",
+                        "redordPilot": "Kevin Magnussen (2018)"
+                    }
+                ]
+            },
+            {
+                "country": "Spain",
+                "circuit": [
+                    {
+                        "name": "Marina Bay Street Circuit",
+                        "circuitImage": "./assets/images/grandprix/spain.png",
+                        "firstGrandPrix": 1991,
+                        "numberOfLaps": 66,
+                        "circuitLength": 4.675,
+                        "raceDistance": 308.424,
+                        "lapRecord": "1:18.149",
+                        "redordPilot": "Max Verstappen (2021)"
+                    }
+                ]
+            },
+            {
+                "country": "USA",
+                "circuit": [
+                    {
+                        "name": "Miami International Autodrome",
+                        "circuitImage": "./assets/images/grandprix/usa-miami.png",
+                        "firstGrandPrix": 2022,
+                        "numberOfLaps": 57,
+                        "circuitLength": 5.412,
+                        "raceDistance": 308.326,
+                        "lapRecord": "1:31.361",
+                        "redordPilot": "Max Verstappen (2022)"
+                    },
+                    {
+                        "name": "Circuit Of The Americas",
+                        "circuitImage": "./assets/images/grandprix/usa-aramco.png",
+                        "firstGrandPrix": 2012,
+                        "numberOfLaps": 56,
+                        "circuitLength": 5.513,
+                        "raceDistance": 308.405,
+                        "lapRecord": "1:36.169",
+                        "redordPilot": "Charles Leclarc (2018)"
+                    }
+                ]
+            }
+        ]
+    }

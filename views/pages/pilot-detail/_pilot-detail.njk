@@ -1,0 +1,54 @@
+<div class="pilot">
+    <h1 class="pilot__header">Pilot Details</h1>
+    <div class="pilot__aside">
+        <div class="pilot__aside__detail">
+            <img class="pilot__aside__detail__image" src="{{pilotImage}}" alt="Pilot Image">
+        </div>
+        <div class="pilot__aside__detail">
+            <p class="pilot__aside__detail__text"><strong>Name:</strong> {{pilotName}}</p>
+            <p class="pilot__aside__detail__text"><strong>Last Name:</strong> {{pilotLastName}}</p>
+            <p class="pilot__aside__detail__text"><strong>Country:</strong> {{country}}</p>
+            <p class="pilot__aside__detail__text"><strong>Date Of Birth:</strong> {{dateOfBirth}}</p>
+            <p class="pilot__aside__detail__text"><strong>Place Of Birth:</strong> {{placeOfBirth}}</p>
+            <p class="pilot__aside__detail__text"><strong>Grands Prix Entered:</strong> {{grandsPrixEntered}}</p>
+            <p class="pilot__aside__detail__text"><strong>Total Podiums:</strong> {{totalPodiums}}</p>
+            <p class="pilot__aside__detail__text"><strong>World Championship:</strong> {{worldChampionship}}</p>
+            <p class="pilot__aside__detail__text"><strong>This Season Podiums:</strong> {{podiums}}</p>
+            <p class="pilot__aside__detail__text"><strong>Standings:</strong> {{standings}}</p>
+        </div>
+    </div>
+    <div class="pilot__aside">
+        <div class="pilot__aside__detail">
+            <h2 class="pilot__header">Podiums Rate</h2>
+            <div id="totalPodiumsPie"></div>
+            <py-script output="totalPodiumsPie">
+                import matplotlib.pyplot as plt
+
+                fig, ax = plt.subplots()
+
+                myLabels = ['Podiums', 'Not Podiums']
+                value = [{{totalPodiums}}, {{grandsPrixEntered}}-{{totalPodiums}}]
+                ax.pie(value, labels = myLabels, autopct='%.0f%%', textprops=dict(color="white"))
+                fig.set_facecolor("#050505")
+                fig.legend()
+                fig
+            </py-script>
+        </div>
+        <div class="pilot__aside__detail">
+            <h2 class="pilot__header">This Season Podiums Rate</h2>
+            <div id="thisSeasonPodiumsPie"></div>
+            <py-script output="thisSeasonPodiumsPie">
+                import matplotlib.pyplot as plt
+
+                fig, ax = plt.subplots()
+
+                myLabels = ['Podiums', 'Not Podiums']
+                value = [{{podiums}}, {{raceStart}}-{{podiums}}]
+                ax.pie(value, labels = myLabels, autopct='%.0f%%', textprops=dict(color="white"))
+                fig.set_facecolor("#050505")
+                fig.legend()
+                fig
+            </py-script>
+        </div>
+    </div>
+</div>

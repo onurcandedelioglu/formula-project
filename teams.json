@@ -1,0 +1,374 @@
+{
+"teams": [
+        {
+            "name": "Red Bull Racing",
+            "logo": "./assets/images/logo/red-bull-logo.png",
+            "car": "./assets/images/cars/red-bull-car.png",
+            "drivers": [
+                {
+                    "pilotName": "Max",
+                    "pilotLastName": "Verstappen",
+                    "pilotImage": "./assets/images/drivers/max-verstappen.jpg",
+                    "country": "Netherlands",
+                    "dateOfBirth": "30/09/1997",
+                    "placeOfBirth": "Hasselt, Belgium",
+                    "grandsPrixEntered": 157,
+                    "totalPodiums": 72,
+                    "worldChampionship": 1,
+                    "raceStart": 14,
+                    "win": 9,
+                    "podiums": 11,
+                    "standings": "1st"
+                },
+                {
+                    "pilotName": "Sergio",
+                    "pilotLastName": "Perez",
+                    "pilotImage": "./assets/images/drivers/sergio-perez.jpg",
+                    "country": "Mexico",
+                    "dateOfBirth": "26/01/1990",
+                    "placeOfBirth": "Guadalajara, Mexico",
+                    "grandsPrixEntered": 230,
+                    "totalPodiums": 22,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 1,
+                    "podiums": 7,
+                    "standings": "2nd"
+                }
+            ]
+        },
+        {
+            "name": "Scuderia Ferrari",
+            "logo": "./assets/images/logo/ferrari-logo.png",
+            "car": "./assets/images/cars/ferrari-car.png",
+            "drivers": [
+                {
+                    "pilotName": "Charles",
+                    "pilotLastName": "Leclerc",
+                    "pilotImage": "./assets/images/drivers/charles-leclerc.jpg",
+                    "country": "Monaco",
+                    "dateOfBirth": "16/10/1997",
+                    "placeOfBirth": "Monte Carlo, Monaco",
+                    "grandsPrixEntered": 97,
+                    "totalPodiums": 19,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 3,
+                    "podiums": 5,
+                    "standings": "3rd"
+                },
+                {
+                    "pilotName": "Carlos",
+                    "pilotLastName": "Sainz",
+                    "pilotImage": "./assets/images/drivers/carlos-sainz.jpg",
+                    "country": "Spain",
+                    "dateOfBirth": "01/09/1994",
+                    "placeOfBirth": "Madrid, Spain",
+                    "grandsPrixEntered": 157,
+                    "totalPodiums": 13,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 1,
+                    "podiums": 7,
+                    "standings": "4th"
+                }
+            ]
+        },
+        {
+            "name": "Mercedes-AMG Petronas F1 Team",
+            "logo": "./assets/images/logo/mercedes-logo.png",
+            "car": "./assets/images/cars/mercedes-car.png",
+            "drivers": [
+                {
+                    "pilotName": "Lewis",
+                    "pilotLastName": "Hamilton",
+                    "pilotImage": "./assets/images/drivers/lewis-hamilton.jpg",
+                    "country": "United Kingdom",
+                    "dateOfBirth": "07/01/1985",
+                    "placeOfBirth": "Stevenage, England",
+                    "grandsPrixEntered": 304,
+                    "totalPodiums": 188,
+                    "worldChampionship": 7,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 6,
+                    "standings": "6th"
+                },
+                {
+                    "pilotName": "George",
+                    "pilotLastName": "Russell",
+                    "pilotImage": "./assets/images/drivers/george-russell.jpg",
+                    "country": "United Kingdom",
+                    "dateOfBirth": "15/02/1998",
+                    "placeOfBirth": "King's Lynn, England",
+                    "grandsPrixEntered": 76,
+                    "totalPodiums": 7,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 5,
+                    "standings": "5th"
+                }
+            ]
+        },
+        {
+            "name": "McLaren F1 Team",
+            "logo": "./assets/images/logo/mclaren-logo.png",
+            "car": "./assets/images/cars/mclaren-car.png",
+            "drivers": [
+                {
+                    "pilotName": "Daniel",
+                    "pilotLastName": "Ricciardo",
+                    "pilotImage": "./assets/images/drivers/daniel-ricciardo.jpg",
+                    "country": "Australia",
+                    "dateOfBirth": "01/07/1989",
+                    "placeOfBirth": "Perth, Australia",
+                    "grandsPrixEntered": 226,
+                    "totalPodiums": 32,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "13th"
+                },
+                {
+                    "pilotName": "Lando",
+                    "pilotLastName": "Norris",
+                    "pilotImage": "./assets/images/drivers/lando-norris.jpg",
+                    "country": "United Kingdom",
+                    "dateOfBirth": "13/11/1999",
+                    "placeOfBirth": "Bristol, England",
+                    "grandsPrixEntered": 76,
+                    "totalPodiums": 6,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 1,
+                    "standings": "7th"
+                }
+            ]
+        },
+        {
+            "name": "Haas F1 Team",
+            "logo": "./assets/images/logo/haas-logo.png",
+            "car": "./assets/images/cars/haas-car.png",
+            "drivers": [
+                {
+                    "pilotName": "Mick",
+                    "pilotLastName": "Schumacher",
+                    "pilotImage": "./assets/images/drivers/mick-schumacher.jpg",
+                    "country": "Germany",
+                    "dateOfBirth": "22/03/1999",
+                    "placeOfBirth": "Vufflens-le-Château, Switzerland",
+                    "grandsPrixEntered": 136,
+                    "totalPodiums": 1,
+                    "worldChampionship": 0,
+                    "raceStart": 13,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "15th"
+                },
+                {
+                    "pilotName": "Kevin",
+                    "pilotLastName": "Magnussen",
+                    "pilotImage": "./assets/images/drivers/kevin-magnussen.jpg",
+                    "country": "Denmark",
+                    "dateOfBirth": "05/10/1992",
+                    "placeOfBirth": "Roskilde, Denmark",
+                    "grandsPrixEntered": 37,
+                    "totalPodiums": 0,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "11th"
+                }
+            ]
+        },
+        {
+            "name": "Williams Racing",
+            "logo": "./assets/images/logo/williams-logo.png",
+            "car": "./assets/images/cars/williams-car.png",
+            "drivers": [
+                {
+                    "pilotName": "Nicholas",
+                    "pilotLastName": "Latifi",
+                    "pilotImage": "./assets/images/drivers/nicholas-latifi.jpg",
+                    "country": "Canada",
+                    "dateOfBirth": "29/06/1995",
+                    "placeOfBirth": "Montreal, Canada",
+                    "grandsPrixEntered": 55,
+                    "totalPodiums": 0,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "20th"
+                },
+                {
+                    "pilotName": "Alexander",
+                    "pilotLastName": "Albon",
+                    "pilotImage": "./assets/images/drivers/alexander-albon.jpg",
+                    "country": "Thailand",
+                    "dateOfBirth": "23/03/1996",
+                    "placeOfBirth": "London, England",
+                    "grandsPrixEntered": 53,
+                    "totalPodiums": 2,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "18th"
+                }
+            ]
+        },
+        {
+            "name": "Scuderia AlphaTauri",
+            "logo": "./assets/images/logo/alphatauri-logo.png",
+            "car": "./assets/images/cars/alphatauri-car.png",
+            "drivers": [
+                {
+                    "pilotName": "Pierre",
+                    "pilotLastName": "Gasly",
+                    "pilotImage": "./assets/images/drivers/pierre-gasly.jpg",
+                    "country": "France",
+                    "dateOfBirth": "07/02/1996",
+                    "placeOfBirth": "Rouen, France",
+                    "grandsPrixEntered": 102,
+                    "totalPodiums": 3,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "14th"
+                },
+                {
+                    "pilotName": "Yuki",
+                    "pilotLastName": "Tsunoda",
+                    "pilotImage": "./assets/images/drivers/yuki-tsunoda.jpg",
+                    "country": "Japan",
+                    "dateOfBirth": "11/05/2000",
+                    "placeOfBirth": "Sagamihara, Japan",
+                    "grandsPrixEntered": 38,
+                    "totalPodiums": 0,
+                    "worldChampionship": 0,
+                    "raceStart": 13,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "16th"
+                }
+            ]
+        },
+        {
+            "name": "Alfa Romeo F1 Team ORLEN",
+            "logo": "./assets/images/logo/alfa-romeo-logo.png",
+            "car": "./assets/images/cars/alfa-romeo-car.png",
+            "drivers": [
+                {
+                    "pilotName": "Valtteri",
+                    "pilotLastName": "Bottas",
+                    "pilotImage": "./assets/images/drivers/valtteri-bottas.jpg",
+                    "country": "Finland",
+                    "dateOfBirth": "28/08/1989",
+                    "placeOfBirth": "Nastola, Finland",
+                    "grandsPrixEntered": 194,
+                    "totalPodiums": 67,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "10th"
+                },
+                {
+                    "pilotName": "Zhou",
+                    "pilotLastName": "Guanyou",
+                    "pilotImage": "./assets/images/drivers/guanyu-zhou.jpg",
+                    "country": "China",
+                    "dateOfBirth": "30/05/1999",
+                    "placeOfBirth": "Shanghai, China",
+                    "grandsPrixEntered": 16,
+                    "totalPodiums": 0,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "17th"
+                }
+            ]
+        },
+        {
+            "name": "Aston Martin Aramco Cognizant F1 Team",
+            "logo": "./assets/images/logo/aston-martin-logo.png",
+            "car": "./assets/images/cars/aston-martin-car.png",
+            "drivers": [
+                {
+                    "pilotName": "Sebastian",
+                    "pilotLastName": "Vettel",
+                    "pilotImage": "./assets/images/drivers/sebastian-vettel.jpg",
+                    "country": "Germany",
+                    "dateOfBirth": "03/07/1987",
+                    "placeOfBirth": "Heppenheim, Germany",
+                    "grandsPrixEntered": 294,
+                    "totalPodiums": 122,
+                    "worldChampionship": 4,
+                    "raceStart": 12,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "12th"
+                },
+                {
+                    "pilotName": "Lance",
+                    "pilotLastName": "Stroll",
+                    "pilotImage": "./assets/images/drivers/lance-stroll.jpg",
+                    "country": "Canada",
+                    "dateOfBirth": "29/10/1998",
+                    "placeOfBirth": "Montreal, Canada",
+                    "grandsPrixEntered": 116,
+                    "totalPodiums": 3,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "19th"
+                }
+            ]
+        },
+        {
+            "name": "BWT Alpine F1 Team",
+            "logo": "./assets/images/logo/alpine-logo.png",
+            "car": "./assets/images/cars/alpine-car.png",
+            "drivers": [
+                {
+                    "pilotName": "Fernando",
+                    "pilotLastName": "Alonso",
+                    "pilotImage": "./assets/images/drivers/fernando-alonso.jpg",
+                    "country": "Spain",
+                    "dateOfBirth": "29/07/1981",
+                    "placeOfBirth": "Oviedo, Spain",
+                    "grandsPrixEntered": 352,
+                    "totalPodiums": 98,
+                    "worldChampionship": 2,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "9th"
+                },
+                {
+                    "pilotName": "Estaban",
+                    "pilotLastName": "Ocon",
+                    "pilotImage": "./assets/images/drivers/estaban-ocon.jpg",
+                    "country": "France",
+                    "dateOfBirth": "17/09/1996",
+                    "placeOfBirth": "Évreux, Normandy",
+                    "grandsPrixEntered": 105,
+                    "totalPodiums": 2,
+                    "worldChampionship": 0,
+                    "raceStart": 14,
+                    "win": 0,
+                    "podiums": 0,
+                    "standings": "8th"
+                }
+            ]
+        }
+    ]
+}

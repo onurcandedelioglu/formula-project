@@ -1,0 +1,19 @@
+{
+  "name": "formula-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch ./views/assets/scss:./views/assets/css",
+    "start": "npm run scss && node serve.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "nunjucks": "^3.2.3",
+    "sass": "^1.52.3"
+  }
+}

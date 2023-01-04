@@ -1,0 +1,20 @@
+<h1 class="team__header">Formula 1 Teams</h1>
+<div class="team">
+    {% for team in teams %}
+        <div class="team__aside {{team.name | replace(' ', '-')}}">
+            <div class="team__aside__information">
+                <h2 class="team__aside__name">{{team.name}}</h2>
+                <img class="team__aside__logo" src="{{team.logo}}">
+            </div>
+            <div class="team__aside__car">
+                <img class="team__aside__car__image" src="{{team.car}}">
+            </div>
+            <div class="team__aside__driver">
+                <a class="team__aside__driver__name" href="/pilot-detail?name={{team.drivers[0].pilotName}}&lastname={{team.drivers[0].pilotLastName}}">{{team.drivers[0].pilotName}} {{team.drivers[0].pilotLastName}}</a>
+                <img class="team__aside__driver__image" src="{{team.drivers[0].pilotImage}}">
+                <a class="team__aside__driver__name" href="/pilot-detail?name={{team.drivers[0].pilotName}}&lastname={{team.drivers[0].pilotLastName}}">{{team.drivers[1].pilotName}} {{team.drivers[1].pilotLastName}}</a>
+                <img class="team__aside__driver__image" src="{{team.drivers[0].pilotImage}}">
+            </div>
+        </div>
+    {% endfor %}
+</div>  
